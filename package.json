@@ -26,10 +26,14 @@
     "@nestjs/core": "^8.0.0",
     "@nestjs/mongoose": "^9.0.1",
     "@nestjs/platform-express": "^8.0.0",
+    "@typegoose/typegoose": "^9.2.0",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.1",
     "mongoose": "^6.0.12",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
@@ -39,6 +43,7 @@
     "@types/jest": "^26.0.24",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^16.0.0",
+    "@types/shortid": "^0.0.29",
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
