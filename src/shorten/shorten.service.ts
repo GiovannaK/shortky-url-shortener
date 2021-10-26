@@ -27,7 +27,7 @@ export class ShortenService {
       return url;
     }
     const hash = shortid.generate();
-    const shortURL = `${process.env.CLIENT_URL}/shorten/${hash}`;
+    const shortURL = `${process.env.API_URL}/shorten/${hash}`;
     const createdURL = await this.URLModel.create({
       hash,
       shortURL,
