@@ -29,8 +29,6 @@
 
 # Features
 
-![Project Image](public/image.png)
-
 ### Flux
 
 - You can type any link
